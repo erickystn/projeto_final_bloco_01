@@ -1,4 +1,6 @@
 import rls from "readline-sync";
+import Game from "./src/model/Game";
+import Console from "./src/model/Console";
 
 if (process.platform === "win32") {
     require("child_process").execSync("chcp 65001");
@@ -6,11 +8,17 @@ if (process.platform === "win32") {
 
 export default function main() {
 
+    const produto1 = new Game(1,"God of War",100.50,"Aventura");
+    const produto2 = new Console(1,"PlayStation 5",3500.45,"1TB");
+
+    produto1.visualizar();produto2.visualizar();
+
+
     let escolha: number;
     
 
     while (true) {
-        process.stdout.write('\x1Bc');
+        // process.stdout.write('\x1Bc');
         geraMenu();
 
         escolha = rls.questionInt(" Digite o operação desejada: > ");
