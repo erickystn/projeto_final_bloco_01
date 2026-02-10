@@ -1,4 +1,4 @@
-# Projeto Loja de Games - TypeScript & POO
+# Projeto Loja de Games Gen - TypeScript & POO
 
 ## Sistema de Gerenciamento de E-commerce de Jogos | Portfólio Profissional
 
