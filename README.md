@@ -111,7 +111,7 @@ classDiagram
         + setPreco(preco: number) void
         + visualizar() void
     }
-    class Jogo {
+    class Game {
         - genero: string
         + getGenero() string
         + setGenero(genero: string) void
