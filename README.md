@@ -93,7 +93,7 @@ Este projeto foi estruturado para:
 ## Diagrama de Classes
 
 
-``````mermaid
+```mermaid
 classDiagram
     class Produto {
         <<Abstract>>
