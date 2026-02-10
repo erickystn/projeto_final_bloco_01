@@ -5,7 +5,7 @@ export default class Game extends Produto {
 
 
     constructor(id: number, nome: string, preco: number, genero: string) {
-        super(id, nome, 2, preco);
+        super(id, nome, 1, preco);
         this._genero = genero;
     }
 
