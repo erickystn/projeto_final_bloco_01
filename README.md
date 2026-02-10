@@ -123,7 +123,7 @@ classDiagram
         + setArmazenamento(armazenamento: string) void
         + visualizar() void
     }
-    Jogo --|> Produto
+    Game --|> Produto
     Console --|> Produto
 ```
 
