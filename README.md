@@ -93,7 +93,7 @@ Este projeto foi estruturado para:
 ## Diagrama de Classes
 
 
-``````mermaid
+```mermaid
 classDiagram
     class Produto {
         <<Abstract>>
@@ -111,7 +111,7 @@ classDiagram
         + setPreco(preco: number) void
         + visualizar() void
     }
-    class Jogo {
+    class Game {
         - genero: string
         + getGenero() string
         + setGenero(genero: string) void
@@ -123,7 +123,7 @@ classDiagram
         + setArmazenamento(armazenamento: string) void
         + visualizar() void
     }
-    Jogo --|> Produto
+    Game --|> Produto
     Console --|> Produto
 ```
 
