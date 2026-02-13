@@ -111,22 +111,22 @@ export default function main() {
 
 
 function geraMenu() {
-    console.log("***********************************");
-    console.log("*                                 *");
-    console.log("*      Loja de Games Gen          *");
-    console.log("*                                 *");
-    console.log("***********************************");
-    console.log("*                                 *");
-    console.log("*  1 - Listar todos os Produtos   *");
-    console.log("*  2 - Buscar Produto pelo ID     *");
-    console.log("*  3 - Cadastrar Produto          *");
-    console.log("*  4 - Atualizar Produto          *");
-    console.log("*  5 - Deletar Produto            *");
-    console.log("*  6 - Listar por Categoria       *");
-    console.log("*  7 - Buscar por Nome Produto    *");
-    console.log("*  0 - Sair                       *");
-    console.log("*                                 *");
-    console.log("***********************************");
+    console.log("*************************************");
+    console.log("*                                   *");
+    console.log("*  👾   Loja de Games Gen    🎮     *");
+    console.log("*                                   *");
+    console.log("*************************************");
+    console.log("*                                   *");
+    console.log("*  1 -📝 Listar todos os Produtos   *");
+    console.log("*  2 -🔍 Buscar Produto pelo ID     *");
+    console.log("*  3 -🖋️  Cadastrar Produto          *");
+    console.log("*  4 -✨ Atualizar Produto          *");
+    console.log("*  5 -❌ Deletar Produto            *");
+    console.log("*  6 -📋 Listar por Categoria       *");
+    console.log("*  7 -🅱️  Buscar por Nome Produto    *");
+    console.log("*  0 -🚪 Sair                       *");
+    console.log("*                                   *");
+    console.log("*************************************");
 }
 
 function geraSobre(): void {
